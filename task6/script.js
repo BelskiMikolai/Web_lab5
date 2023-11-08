@@ -18,6 +18,6 @@ function getDay(numOfDay) {
 
 //Проверка
 alert("3 ^ 3 = " + sqrt(3));
-alert("2 + 2 = " +  sum(2,2));
-alert("(3 - 2) / 2 = " + calcNum(3,2,2));
+alert("2 + 2 = " + sum(2, 2));
+alert("(3 - 2) / 2 = " + calcNum(3, 2, 2));
 alert("0: " + getDay(0) + " 2: " + getDay(2));

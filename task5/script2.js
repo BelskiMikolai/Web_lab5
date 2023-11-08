@@ -4,6 +4,6 @@ let obj = {
     'Россия': 'Москва',
     'Украина': 'Киев'
 };
-for (key in obj){
+for (key in obj) {
     alert(`${obj[key]} - это ${key}`);
 }
