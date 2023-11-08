@@ -8,8 +8,10 @@ function getResult(salary) {
     alert(`В итоге с премией и с вычитом нологов: ${result} р.`);
     result -= 90;
     alert(`После трат в магазине: ${result} р.`);
-    result /= 2;
-    alert(`Жене половину отдал. Осталось сколько?`);
+    if (result > 0) {
+        result /= 2;
+        alert(`Жене половину отдал. Осталось сколько?`);
+    }
     return result;
 }
 
